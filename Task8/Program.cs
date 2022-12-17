@@ -9,6 +9,7 @@ System.Console.Write("Введите длину массива: ");
 int Number = Convert.ToInt32(Console.ReadLine());// Приобразование стороки в число
 
 for (int i = 1; i <= Number; i++)
+{
     if (i % 2 == 0)
         Console.WriteLine("Чётное число: " + i);
-
+}
